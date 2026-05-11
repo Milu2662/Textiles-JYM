@@ -1,15 +1,25 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="121.000000pt" height="129.000000pt" viewBox="0 0 121.000000 129.000000"
- preserveAspectRatio="xMidYMid meet">
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="white"/>
 
-<g transform="translate(0.000000,129.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M635 970 c4 -14 22 -56 40 -94 l32 -69 12 33 c6 18 11 38 11 45 0 12
--52 71 -84 95 -18 14 -18 13 -11 -10z"/>
-<path d="M365 555 c46 -39 59 -42 106 -18 l33 17 -74 18 c-104 25 -111 23 -65
--17z"/>
-</g>
+  <g transform="translate(150,150)">
+    <rect x="-120" y="-120" width="110" height="110" rx="25" ry="25"
+          fill="#22C7F5" transform="rotate(-35)"/>
+
+    <rect x="10" y="-120" width="110" height="110" rx="25" ry="25"
+          fill="#22C7F5" transform="rotate(35)"/>
+
+    <rect x="-55" y="-10" width="110" height="110" rx="25" ry="25"
+          fill="#22C7F5" transform="rotate(145)"/>
+
+    <path d="
+      M -15 -40
+      C -5 -70, 35 -70, 45 -35
+      C 55 -5, 35 20, 10 40
+      L 0 50
+      L -10 40
+      C -35 20, -55 -5, -45 -35
+      C -35 -70, 5 -70, 15 -40
+      Z"
+      fill="white"/>
+  </g>
 </svg>
