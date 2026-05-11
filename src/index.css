@@ -38,42 +38,50 @@ body {
    NAVBAR
    ===================================================== */
 /* Barra fija superior con efecto glass (blur) */
-.navbar {
-  position: fixed;
-  top: 0;
+.navbar{
   width: 100%;
-  z-index: 1000;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 15px 40px;
-
-  background: rgba(0,0,0,0.6);
+  padding: 18px 40px;
+  background: rgba(0,0,0,0.7);
   backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
-/* Logo */
-.navbar h2 {
-  color: #15caf8;
-}
-
-/* Contenedor de links */
-.nav-links {
+.logo-container{
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 12px;
 }
 
-/* Links */
-.nav-links a {
+.logo{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.logo-container h2{
   color: white;
-  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.nav-links{
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links li{
+  color: white;
+  cursor: pointer;
   transition: 0.3s;
 }
 
-/* Hover links */
-.nav-links a:hover {
+.nav-links li:hover{
   color: #15caf8;
 }
 
