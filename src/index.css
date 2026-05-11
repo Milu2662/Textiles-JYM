@@ -85,6 +85,16 @@ body {
   color: #15caf8;
 }
 
+.nav-links a{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links a:hover{
+  color: #15caf8;
+}
+
 /* =====================================================
    HERO (SECCIÓN PRINCIPAL)
    ===================================================== */

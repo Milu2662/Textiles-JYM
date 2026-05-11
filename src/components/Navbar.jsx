@@ -13,15 +13,23 @@ function Navbar() {
         <h2>TEXTILES JYM</h2>
       </div>
 
-      {/* MENÚ */}
       <ul className="nav-links">
-        <li>Inicio</li>
-        <li>Productos</li>
-        <li>Promociones</li>
-        <li>Nosotros</li>
-        <li>Contacto</li>
+        <li>
+          <a href="#home">Inicio</a>
+        </li>
+        <li>
+          <a href="#products">Productos</a>
+        </li>
+        <li>
+          <a href="#promotions">Promociones</a>
+        </li>
+        <li>
+          <a href="#about">Nosotros</a>
+        </li>
+        <li>
+          <a href="#contacts">Contacto</a>
+        </li>
       </ul>
-
     </nav>
   )
 }

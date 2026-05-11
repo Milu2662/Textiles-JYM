@@ -47,16 +47,16 @@
 /* IMAGEN */
 .about-image {
   flex: 1;
-  height: 400px;           /* 🔥 controla altura */
+  height: 400px;         
   overflow: hidden;
   border-radius: 20px;
-  background: white;       /* 🔥 elimina fondo oscuro */
+  background: white;    
 }
 .about-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;       /* 🔥 cubre sin distorsionar */
-  transition: transform 0.5s ease; /* 🔥 efecto suave */
+  object-fit: cover; 
+  transition: transform 0.5s ease;
 }
 .about-image img:hover {
   transform: scale(1.05); 
