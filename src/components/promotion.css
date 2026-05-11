@@ -1,0 +1,94 @@
+.promotion {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.promotion-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.promotion-header h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.promotion-header p {
+  color: gray;
+  margin-top: 10px;
+}
+
+/* SLIDER */
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+/* SLIDE */
+.slide {
+  min-width: 100%;
+  height: 700px; /* 🔥 antes 450 / 500 */
+  position: relative;
+  scroll-snap-align: center;
+}
+/* FONDO */
+.slide-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;        /* 🔥 clave */
+  background-position: center;   /* centra bien */
+  background-repeat: no-repeat;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* CONTENIDO */
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.slide-content h3 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.slide-content p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* BADGES */
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.badge.red {
+  background: red;
+}
+
+.badge.blue {
+  background: #15caf8;
+}
