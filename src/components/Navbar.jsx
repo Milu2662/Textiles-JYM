@@ -18,10 +18,10 @@ function Navbar() {
           <a href="#home">Inicio</a>
         </li>
         <li>
-          <a href="#products">Productos</a>
+          <a href="#promotions">Promociones</a>
         </li>
         <li>
-          <a href="#promotions">Promociones</a>
+          <a href="#products">Productos</a>
         </li>
         <li>
           <a href="#about">Nosotros</a>
