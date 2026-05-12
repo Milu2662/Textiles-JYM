@@ -18,14 +18,15 @@ function Navbar() {
           <a href="#home">Inicio</a>
         </li>
         <li>
+          <a href="#about">Nosotros</a>
+        </li>
+        <li>
           <a href="#promotions">Promociones</a>
         </li>
         <li>
           <a href="#products">Productos</a>
         </li>
-        <li>
-          <a href="#about">Nosotros</a>
-        </li>
+
         <li>
           <a href="#contacts">Contacto</a>
         </li>
