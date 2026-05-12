@@ -540,23 +540,11 @@ section{
 
 @media (max-width:768px){
 
-  .hero{
-  min-height:90vh;
-  }
-
-  .navbar{
-    flex-direction:column;
-    gap:15px;
-    padding:15px 5%;
-  }
-
-  .nav-links{
-    justify-content:center;
-    gap:15px;
-  }
+  /* HERO */
 
   .hero{
-    padding-top:180px;
+    min-height:90vh;
+    padding-top:140px;
   }
 
   .hero h1{
@@ -567,21 +555,87 @@ section{
     font-size:1rem;
   }
 
-  .product-overlay{
-  opacity:1;
-  justify-content:flex-end;
-  padding-bottom:30px;
+  /* NAVBAR MOBILE */
 
-  background:linear-gradient(
-    to top,
-    rgba(0,0,0,0.8),
-    rgba(0,0,0,0.1)
-  );
+  .navbar{
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 5%;
+
+    position:fixed;
+    left:0;
   }
+
+  /* BOTÓN ☰ */
+
+  .menu-toggle{
+    display:block;
+  }
+
+  /* LINKS */
+
+  .nav-links{
+    display:none;
+
+    position:absolute;
+    top:100%;
+    left:0;
+
+    width:100%;
+
+    background:rgba(0,0,0,0.95);
+
+    flex-direction:column;
+    align-items:center;
+
+    gap:20px;
+
+    padding:25px 0;
+  }
+
+  .nav-links.active{
+    display:flex;
+  }
+
+  /* PRODUCTOS */
+
+  .product-overlay{
+    opacity:1;
+
+    justify-content:flex-end;
+
+    padding-bottom:30px;
+
+    background:linear-gradient(
+      to top,
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.1)
+    );
+  }
+
+  .product-card img{
+    aspect-ratio:4/5;
+  }
+
+  /* ABOUT */
+
+  .about-container{
+    grid-template-columns:1fr;
+  }
+
+  .about-image{
+    order:-1;
+  }
+
+  /* CONTACT */
 
   .contact-grid{
     grid-template-columns:1fr;
   }
+
+  /* MODAL */
 
   .modal-content{
     grid-template-columns:1fr;
@@ -597,6 +651,8 @@ section{
   .modal-info{
     padding:25px;
   }
+
+  /* BOTONES */
 
   .quote-btn,
   .contact-form button{
@@ -666,4 +722,13 @@ button:hover{
 
 .product-card:hover{
   transform:translateY(-8px);
+}
+
+/* HAMBURGUESA */
+
+.menu-toggle{
+  display:none;
+  font-size:2rem;
+  color:white;
+  cursor:pointer;
 }
