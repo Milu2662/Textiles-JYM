@@ -44,8 +44,6 @@
 .slide{
   min-width:100%;
 
-  position:relative;
-
   scroll-snap-align:center;
 
   flex-shrink:0;
@@ -68,67 +66,6 @@
   border-radius:20px;
 }
 
-/* OVERLAY */
-
-.overlay{
-  position:absolute;
-  inset:0;
-
-  background:rgba(0,0,0,0.25);
-
-  border-radius:20px;
-}
-
-/* CONTENIDO */
-
-.slide-content{
-  position:absolute;
-
-  top:50%;
-  left:50%;
-
-  transform:translate(-50%, -50%);
-
-  color:white;
-
-  text-align:center;
-
-  width:90%;
-}
-
-.slide-content h3{
-  font-size:clamp(2rem,5vw,5rem);
-
-  font-weight:bold;
-
-  margin-top:10px;
-}
-
-.slide-content p{
-  margin-top:10px;
-
-  font-size:clamp(1rem,2vw,1.3rem);
-}
-
-/* BADGES */
-
-.badge{
-  padding:8px 16px;
-
-  border-radius:20px;
-
-  font-size:14px;
-  font-weight:bold;
-}
-
-.badge.red{
-  background:red;
-}
-
-.badge.blue{
-  background:#15caf8;
-}
-
 /* =====================================================
    MOBILE
 ===================================================== */
@@ -146,36 +83,18 @@
 
   .slide{
     min-width:100%;
+
     padding:0 10px;
   }
 
   .slide-image{
     width:100%;
+
     height:auto;
 
+    display:block;
+
     border-radius:15px;
-  }
-
-  .overlay{
-    border-radius:15px;
-  }
-
-  .slide-content{
-    width:85%;
-  }
-
-  .slide-content h3{
-    font-size:3rem;
-    line-height:1;
-  }
-
-  .slide-content p{
-    font-size:1.1rem;
-  }
-
-  .badge{
-    font-size:12px;
-    padding:6px 12px;
   }
 
 }
@@ -190,12 +109,8 @@
     padding:0;
   }
 
-  .slide-content h3{
-    font-size:2.5rem;
-  }
-
-  .slide-content p{
-    font-size:1rem;
+  .slide-image{
+    border-radius:0;
   }
 
 }
