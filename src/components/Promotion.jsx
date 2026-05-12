@@ -16,7 +16,7 @@ export default function Promotion() {
           <div
             className="slide-bg"
             style={{
-              backgroundImage: 'url("/promotions/oferta2.jpg")'
+              backgroundImage: 'url("/promotions/promo2.jpg")'
             }}
           ></div>
 
@@ -34,7 +34,7 @@ export default function Promotion() {
           <div
             className="slide-bg"
             style={{
-              backgroundImage: 'url("/promotions/promo2.jpg")'
+              backgroundImage: 'url("/promotions/oferta2.jpg")'
             }}
           ></div>
 
