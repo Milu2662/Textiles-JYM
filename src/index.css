@@ -262,14 +262,10 @@ button:hover{
 
 .about-image img{
   width:100%;
-  max-width:450px;
-
+  max-width:100%;
   height:auto;
-
   border-radius:25px;
-
-  object-fit:cover;
-
+  object-fit:contain;
   display:block;
   margin:auto;
 }
@@ -306,15 +302,14 @@ button:hover{
 
 .product-card img{
   width:100%;
-
-  aspect-ratio:4/5;
-
-  object-fit:cover;
-
+  height:auto;
+  max-height:80vh;
+  object-fit:contain;
   display:block;
-
+  border-radius:15px;
   transition:0.5s ease;
 }
+
 
 .product-card:hover img{
   transform:scale(1.05);
@@ -682,7 +677,7 @@ button:hover{
   }
 
   .about-image{
-    order:-1;
+    order:2;
   }
 
   /* PRODUCTS */
